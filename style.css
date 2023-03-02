@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border_box;
+
+}
+
+body {
+
+    height: 100vh;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.board {
+    height: 85vh;
+    width: 80vw;
+    background-color: black;
+    border-radius: 10px;
+
+
+
+}
+
+.ball {
+
+    /* making a circle in CSS */
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+
+.paddle {
+
+    height: 120px;
+    width: 15px;
+    background-color: aqua;
+    position: fixed;
+
+}
+
+.left {
+    height: 120px;
+    width: 15px;
+    top: 40vh;
+    left: 12vw;
+
+}
+
+.right {
+    height: 120px;
+    width: 15px;
+    top: 40vh;
+    right: 12vw;
+
+}
+
+
+
+.leftlives {
+    position: fixed;
+    top: 10vh;
+    left: 20vw;
+    margin-top: 15px;
+    color: white;
+
+
+}
+
+.rightlives {
+    position: fixed;
+    top: 10vh;
+    right: 20vw;
+    margin-top: 15px;
+    color: white;
+
+
+}
+
+.heading {
+
+    position: fixed;
+    top: 20px;
+    left: 42vw;
+
+}
